@@ -1,3 +1,10 @@
+#Ouvrir le notebook
 Using IJulia
 
 notebook()
+
+#mettre à jour dossier avec git master
+git status
+git checkout -- .
+git remote add upstream https://github.com/d9w/evolution.git
+git pull upstream master
